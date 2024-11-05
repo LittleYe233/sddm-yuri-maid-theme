@@ -30,11 +30,11 @@ sddm qt6-svg ttf-opensans
    sudo git clone https://github.com/LittleYe233/sddm-yuri-maid-theme.git /usr/share/sddm/themes/sddm-yuri-maid-theme
    ```
 
-2. Then edit `/etc/sddm.conf`, so that it looks like this:
+2. Then edit `/usr/lib/sddm/sddm.conf.d/default.conf` (in Arch Linux for example), so that it looks like this:
 
     ```sh
     echo "[Theme]
-    Current=sddm-yuri-maid-theme" | sudo tee /etc/sddm.conf
+    Current=sddm-yuri-maid-theme" | sudo tee /usr/lib/sddm/sddm.conf.d/default.conf
     ```
 
 
