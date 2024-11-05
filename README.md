@@ -17,17 +17,9 @@ Here are some examples:
 
 ### Dependencies
 
-#### Arch, Void
+#### Arch
 ```sh
-sddm qt6-svg
-```
-#### Fedora
-```sh
-sddm qt6-qtsvg
-```
-#### OpenSUSE
-```sh
-sddm-qt6 qt6-svg
+sddm qt6-svg ttf-opensans
 ```
 
 ### Install
@@ -35,15 +27,14 @@ sddm-qt6 qt6-svg
 1. Clone this repository, copy fonts to `/usr/share/fonts/`:
 
    ```sh
-   sudo git clone https://github.com/keyitdev/sddm-astronaut-theme.git /usr/share/sddm/themes/sddm-astronaut-theme
-   sudo cp /usr/share/sddm/themes/sddm-astronaut-theme/Fonts/* /usr/share/fonts/
+   sudo git clone https://github.com/LittleYe233/sddm-yuri-maid-theme.git /usr/share/sddm/themes/sddm-yuri-maid-theme
    ```
 
 2. Then edit `/etc/sddm.conf`, so that it looks like this:
 
     ```sh
     echo "[Theme]
-    Current=sddm-astronaut-theme" | sudo tee /etc/sddm.conf
+    Current=sddm-yuri-maid-theme" | sudo tee /etc/sddm.conf
     ```
 
 
